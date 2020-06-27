@@ -1,0 +1,55 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Musik untuk semua orang
+        -
+        Spotify
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="logo">
+                <img src="logo.png">
+            </div>
+            <ul>
+                <li><a href="#">Premium</a></li>
+                <li><a href="#">Bantuan</a></li>
+                <li><a href="#">Download</a></li>
+                <li>|</li>
+                <li><a href="#">Daftar</a></li>
+                <li><a href="#">Masuk</a></li>
+                <li><img src="logo.png"></li>
+            </ul>
+            <div class="ham-icon">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+    </nav>
+    <div class="section-1">
+    </div>
+    <script>
+        const nav_ul = document.querySelector("nav ul");
+        const hamIcon = document.querySelector(".ham-icon");
+        const divider = document.querySelector("nav ul li:nth-child(4)");
+        const overlay = document.querySelector('.overlay');
+        hamIcon.addEventListener('click', () => {
+            nav_ul.classList.toggle('slide');
+            if (nav_ul.classList.contains('slide')) {
+                divider.innerHTML = "—";
+            } else {
+                divider.innerHTML = "|";
+            }
+        });
+
+    </script>
+
+</body>
+
+</html>

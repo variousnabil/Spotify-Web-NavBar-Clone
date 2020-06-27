@@ -4,6 +4,10 @@
   font-family: Helvetica;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 nav {
   position: fixed;
   right: 0;
@@ -168,7 +172,7 @@ nav .wrapper .ham-icon input:checked ~ span:nth-child(3) {
     right: 0;
     bottom: 0;
     top: 0;
-    height: 100vh;
+    height: 100%;
     padding: 1.4em 1.5em;
     font-size: 32px;
     -webkit-transform: translateX(100%);

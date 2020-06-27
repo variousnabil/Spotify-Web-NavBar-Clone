@@ -208,13 +208,13 @@ nav .wrapper .ham-icon input:checked ~ span:nth-child(3) {
 }
 
 @media (max-width: 400px) {
-  nav ul {
+  nav .wrapper ul {
     width: 100vw;
     font-size: 28px;
     padding: 0px 0px;
     padding-top: 2em;
   }
-  nav ul li {
+  nav .wrapper ul li {
     margin-left: 2em;
   }
 }

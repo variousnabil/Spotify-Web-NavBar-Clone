@@ -88,7 +88,7 @@ nav .wrapper .ham-icon input {
   height: 18px;
   left: -8px;
   top: 0px;
-  opacity: 0%;
+  opacity: 0;
   cursor: pointer;
   z-index: 2;
 }

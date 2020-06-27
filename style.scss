@@ -65,7 +65,7 @@ nav {
                 width: 22px;
                 height: 3px;
                 background-color: white;
-                border-radius: 25%;
+                border-radius: 15%;
                 transition: all 0.25s;
             }
 
@@ -148,12 +148,12 @@ nav {
 
                 li:nth-child(7) {
                     margin-top: auto;
-                }
-                li img {
-                    width: 3em;
-                    display: flex;
-                    cursor: pointer;
                     margin-bottom: 3em;
+                    img {
+                        width: 3em;
+                        display: block;
+                        cursor: pointer;
+                    }
                 }
             }
             .ham-icon {
